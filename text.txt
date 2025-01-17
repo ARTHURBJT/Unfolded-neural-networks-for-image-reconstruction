@@ -1,0 +1,66 @@
+tmux0 : 
+python training.py --num_of_layers 15 --name comparison_NN_TV
+Loss on the validation set of the NN :  0.03273860365152359
+Loss on the validation set of the TV algorithm with the same number of iteration than the NN :  0.06687045842409134
+Loss on the validation set of the TV algorithm when it converges :  0.04876738414168358
+
+
+tmux1 : 
+python training.py --num_of_layers 50 --name comparison_NN_TV
+
+Loss on the validation set of the NN :  0.03402295336127281
+Loss on the validation set of the TV algorithm with the same number of iteration than the NN :  0.05240742489695549
+Loss on the validation set of the TV algorithm when it converges :  0.04876738414168358
+
+
+tmux2 : 
+python training.py --num_of_layers 100 --name comparison_NN_TV
+
+Loss on the validation set of the NN :  0.03323511779308319
+Loss on the validation set of the TV algorithm with the same number of iteration than the NN :  0.04949982464313507
+Loss on the validation set of the TV algorithm when it converges :  0.04876738414168358
+
+
+tmux3 : 
+python training_conv.py --num_of_layers 15 --name conv_full_layer
+
+Loss on the validation set of the convolution NN :  0.7926911115646362
+Loss on the validation set of the convolution NN :  0.7992668747901917
+Loss on the validation set of the convolution NN :  0.8176707029342651
+Loss on the validation set of the convolution NN :  0.7874816060066223
+Loss on the validation set of the convolution NN :  0.8238669037818909
+Loss on the validation set of the convolution NN :  0.8212306499481201
+
+
+tmux4 : 
+python training_conv.py --num_of_layers 50 --name conv_full_layer
+
+Loss on the validation set of the convolution NN :  0.7589643001556396
+Loss on the validation set of the convolution NN :  0.7440511584281921
+Loss on the validation set of the convolution NN :  0.7243611216545105
+Loss on the validation set of the convolution NN :  0.6910786628723145
+Loss on the validation set of the convolution NN :  0.714777410030365
+Loss on the validation set of the convolution NN :  0.7562707662582397
+
+
+tmux5 : 
+python training_conv.py --num_of_layers 100 --name conv_full_layer
+
+
+
+12479799230464
+10827238211584
+10016158384128
+50139536293888
+201146085933056
+556750302347264
+1090581451243520
+1960534190587904
+1998208033095680
+1786639823142912
+1428056895913984
+1047965175119872
+715860184399872
+
+1760952429051904
+1089295242756096
